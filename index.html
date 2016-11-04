@@ -8,10 +8,12 @@
         <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js" type="text/javascript"></script>
         <script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushJScript.js"></script>
         <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shAutoloader.js" type="text/javascript"></script>
+        <script src="app.js"></script>
     </head>
     <body>
         <h1>Devoir maison numéro 3:</h1>
     <div class="source">
+        <button onclick="algo();">Tester l'agorithme</button>
         <h2>Code source en Javascript</h2>
         <pre class="brush: js;">
             var n = parseInt(prompt("Entrez la valeur de n:"));
@@ -33,12 +35,41 @@
             alert("La valeur de x est :" + x);
                     </pre>
     </div>
+    
     </body>
     <style>
+    body
+    {
+        font-family: "Arial", sans-serif;
+    }
     .toolbar
     {
         display: none;
     }
+    button
+    {
+        color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    }
     </style>
-    <script src="app.js"></script>
 </html>
