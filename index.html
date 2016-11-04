@@ -5,9 +5,33 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/style.css" rel="stylesheet">
+        <link href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+        <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js" type="text/javascript"></script>
+        <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shAutoloader.js" type="text/javascript"></script>
+
     </head>
     <body>
-    
+    <div class="source">
+        <pre class="brush: js;">
+            var n = parseInt(prompt("Entrez la valeur de n:"));
+            var x = 0;
+            var i = 1;
+            while(n > 1)
+            {
+                if(n * i >4)
+                {
+                    x = x + 2*n;
+                }
+                else
+                {
+                    x = x + n;
+                }
+                n = n -2;
+                i = i +1;
+            }
+            alert("La valeur de x est :" + x);
+                    </pre>
+    </div>
     </body>
     <script src="app.js"></script>
 </html>
