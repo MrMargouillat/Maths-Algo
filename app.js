@@ -1,3 +1,6 @@
+// Highlisht syntaxe
+SyntaxHighlighter.all()
+
 var n = parseInt(prompt("Entrez la valeur de n:"));
 var x = 0;
 var i = 1;
